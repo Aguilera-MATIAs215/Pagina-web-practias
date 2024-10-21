@@ -1,0 +1,90 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+main {
+    background-color: v.$blancoOpaco;
+    padding: 5rem 15rem;
+    
+    a{
+        color: v.$negro;
+    }
+
+    .product {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); // 4 columnas en el grid
+        gap: 2rem; // Espacio entre elementos del grid
+    }
+
+    .product-container {
+        
+        background-color: v.$blancoOpaco; // Ejemplo de estilo adicional
+        padding: 1rem; // Añadir padding a cada contenedor de producto
+        border-radius: 8px; // Borde redondeado para los contenedores
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.326); // Sombra para los contenedores
+        
+        h1, h2, p{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        h2{
+            margin: 1rem;
+        }
+
+        p{
+            color: rgb(100, 97, 97);
+        }
+    
+    }
+
+    .product-card{
+
+        .product-image{
+            width: 40rem;
+            height: 40rem;
+            padding: 1rem;
+        }
+    }
+
+
+    //Contenido de compra
+    .caracteristicas{
+        background-color: v.$blancoOpaco; // Ejemplo de estilo adicional
+        padding: 1rem; // Añadir padding a cada contenedor de producto
+        border-radius: 8px; // Borde redondeado para los contenedores
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.326); // Sombra para los contenedores
+        display: grid;
+        display: flex;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2 rem;
+
+        .caracteristicas-img{
+            
+            padding: 5rem;
+            
+        }
+
+        .caracteristicas-compra{
+
+            .talles{
+                color: gray;
+            }
+            .cuotas{
+                font-size: 1.5rem;
+                color: gray;
+            }
+
+            button{
+                border: none;
+                line-height: 3rem;
+            }
+        }
+
+        .Descripcion-producto{
+            font-size: 1.5rem;
+        }
+
+    } 
+
+}
