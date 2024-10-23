@@ -109,6 +109,7 @@
     "lead": "^4.0.0",
     "liftoff": "^5.0.0",
     "lodash.clonedeep": "^4.5.0",
+    "lottie-web": "^5.12.2",
     "map-cache": "^0.2.2",
     "micromatch": "^4.0.8",
     "mute-stdout": "^2.0.0",

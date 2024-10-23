@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+main{
+    padding: 20rem;
+    background-color: v.$blancoOpaco;
+}
+
+
+.enProceso{
+    margin: -rem;
+    text-align: center;
+    font-size: 3rem;
+}

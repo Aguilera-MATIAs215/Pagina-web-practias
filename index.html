@@ -28,13 +28,13 @@
                 <img src="extras img/logo1.png" alt="ReWear Logo">
             </div>
             <div>
-                <a href="#">Inicio</a>
-                <a href="#">Novedades</a>
+                <a href="index.html">Inicio</a>
+                <a href="novedades.html">Novedades</a>
                 <a href="contacto.html">Contacto</a>
-                <a href="#">Hombres</a>
-                <a href="#">Mujer</a>
-                <a href="#">Niños</a>
-                <a href="#">Vender</a>
+                <a href="hombre.html">Hombres</a>
+                <a href="mujer.html">Mujer</a>
+                <a href="niños.html">Niños</a>
+                <a href="vender.html">Vender</a>
                 <input type="search" placeholder="Buscar" class="search-input">
             </div>
         </div>
@@ -233,7 +233,16 @@
 
     <footer class="footer">
         <p>&copy; 2024 ReWear. Todos los derechos reservados.</p>
-    </footer>    
+    </footer>   
+    
+    <script>
+        // Escuchar el clic en el botón de Login
+        document.getElementById("loginBtn").addEventListener("click", function(event) {
+            event.preventDefault(); // Prevenir la redirección inmediata
+            document.getElementById("loginSection").classList.add("hidden"); // Ocultar la sección
+            window.location.href = "index.html"; // Redirigir a la página de inicio
+        });
+    </script>
 
 </body>
 </html>

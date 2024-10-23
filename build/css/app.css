@@ -434,6 +434,7 @@ body > section {
 main {
   background-color: #d9c5a1;
   padding: 5rem 15rem;
+  margin: -5rem;
 }
 main a {
   color: #000000;
@@ -445,7 +446,7 @@ main .product {
 }
 main .product-container {
   background-color: #d9c5a1;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.326);
 }
@@ -461,7 +462,7 @@ main .product-container p {
 }
 main .product-card .product-image {
   width: 40rem;
-  height: 40rem;
+  height: 30rem;
   padding: 1rem;
 }
 main .caracteristicas {
@@ -705,4 +706,15 @@ input:focus {
 }
 .register-form .div_login a:hover {
   text-decoration: underline;
+}
+
+main {
+  padding: 20rem;
+  background-color: #d9c5a1;
+}
+
+.enProceso {
+  margin: -rem;
+  text-align: center;
+  font-size: 3rem;
 }/*# sourceMappingURL=app.css.map */
